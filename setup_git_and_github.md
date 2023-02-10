@@ -11,7 +11,7 @@
  $ git config --global user.name "username"
  $ git config --global user.email "email"
  ```
- replace username with your github username and replace email with your github email
+ replace `"username"` with your github username and replace `"email"` with your github email
 - To check if these commands have taken effect, output the
  configuration variables
  ```bash
