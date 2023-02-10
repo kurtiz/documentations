@@ -54,12 +54,17 @@ to github
  your home directory. 
 
 - Let's start the SSH agent on our local machine
--- For Windows
-```powershell
+### For Windows
 
+open powershell in administator mode
+and run the following commands
+```powershell
+$ Set-Service ssh-agent -StartType Manual
+$ Start-Service ssh-agent
+$ ssh-agent -s
 ```
 
--- For Linux / MacOS
+### For Linux / MacOS
  ```bash
  $ eval "$(ssh-agent -s)"
  ```
@@ -78,10 +83,10 @@ to github
  added
 - Let's copy the content of the file to our 
  clipboard.
- ## windows Users
+ ## windows users
 --------------------------------------
  ```bash
- $ clip < ~/.ssh/id_ed25519.pub
+ $ cat ~/.ssh/id_ed25519.pub | clip
  ```
 --------------------------------------
 ## linux users
