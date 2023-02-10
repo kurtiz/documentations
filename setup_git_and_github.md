@@ -3,6 +3,10 @@
 - Make sure you have a github account
 - Add your github email and username to your local git
  configuration 
+ 
+ ## Please Note:
+ 
+ _Do not add the dollar sign ($) in front of the commands_
  ```bash 
  $ git config --global user.name "username"
  $ git config --global user.email "email"
@@ -59,7 +63,7 @@ to github
 open powershell in administator mode
 and run the following commands
 ```powershell
-$ Set-Service ssh-agent -StartType Manual
+$ Set-Service ssh-agent -StartupType Manual
 $ Start-Service ssh-agent
 $ ssh-agent -s
 ```
