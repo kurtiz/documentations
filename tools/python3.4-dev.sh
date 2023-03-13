@@ -29,6 +29,7 @@ echo -e ${reset}
 clear
 
 sudo tar -xzf Python-3.4.4.tgz
+clear
 sudo cd Python-3.4.4
 
 echo -e ${purple}"Configuring and Installing Python3.4......"
