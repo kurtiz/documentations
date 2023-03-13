@@ -26,24 +26,34 @@ sudo wget https://www.python.org/ftp/python/3.4.4/Python-3.4.4.tgz
 
 echo -e ${brown}"Unzipping Python-3.4.4.tgz....."
 echo -e ${reset}
+clear
 
 sudo tar -xzf Python-3.4.4.tgz
 sudo cd Python-3.4.4
 
+echo -e ${purple}"Configuring and Installing Python3.4......"
+echo -e ${reset}
+
 sudo ./configure
 sudo make altinstall
+clear
+
+echo -e ${cyan}"Testing if the installation was successful"
+echo -e ${reset}
 
 # **Tests if it was installed successfully**
 python3.4 --version
+clear
+
+echo -e ${brown}"Copying Libraries to the include folder"
+echo -e ${reset}
 
 # **Copy the necessary header files to the python3.4 dev folder**
-cp /usr/src/Python-3.4.4/Include/ /usr/include/python3.4 -R
+cp /usr/src/Python-3.4.4/Include/ /usr/include/python3.4 -Rv
 
-cp /usr/src/Python-3.4.4/pyconfig.h /usr/include/python3.4
+cp /usr/src/Python-3.4.4/pyconfig.h /usr/include/python3.4 -v
+clear
 
-echo -e "$green Abcd"
-echo -e "$brown Abce"
-echo -e "$cyan Abce"
-echo -e "$red Abce"
-echo -e "$purple Abce"
-echo -e "$blue Abce"
+echo -e ${green}"Successfully installed and setup\nDone......"
+echo -e ${reset}
+
