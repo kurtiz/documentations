@@ -1,0 +1,5 @@
+A simple tip
+if you have a website that disallows php files uploads you could play with the apache 
+configurations to make the server treat other files as php files
+you can upload .htaccess and make said extension (.cth) runnable with this 
+AddType application/x-httpd-php .cth
