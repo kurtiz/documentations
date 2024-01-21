@@ -56,9 +56,15 @@ The two keys are required to decrypt and authenticate your connection
 to github
 - Now we will have to register our newly generated key to our ssh
  service. Usually the key generated is saved in a '.ssh' folder in 
- your home directory. 
+ your home directory.
 
 - Let's start the SSH agent on our local machine
+
+### Note
+```
+Windows users using Git Bash can run the commands under Linux
+```
+
 ### For Windows
 
 open powershell in administator mode
@@ -70,7 +76,8 @@ $ ssh-agent -s
 ```
 
 ### For Linux / MacOS
- ```bash
+
+```bash
  $ eval "$(ssh-agent -s)"
  ```
  This should return the process ID like this 
@@ -88,20 +95,20 @@ $ ssh-agent -s
  added
 - Let's copy the content of the file to our 
  clipboard.
- ## windows users
+ ## Windows users
 --------------------------------------
  ```bash
  $ cat ~/.ssh/id_ed25519.pub | clip
  ```
 --------------------------------------
-## linux users
+## Linux users
 --------------------------------------
  ```bash
  $ cat ~/.ssh/id_ed25519.pub
  ```
  - this will output the content of the file, select and copy it
 ---------------------------------------
-## macos users
+## MacOS users
 ---------------------------------------
  ```bash
  $ pbcopy < ~/.ssh/id_ed25519.pub
