@@ -26,6 +26,9 @@ const config: Config = {
     // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'en',
+        locales: ['en'],
+
+        /*
         locales: ['en', 'fa', 'fr'],
         path: 'i18n',
         localeConfigs: {
@@ -51,6 +54,7 @@ const config: Config = {
                 path: 'fr',
             },
         },
+        */
     },
 
     presets: [
@@ -104,7 +108,8 @@ const config: Config = {
                 },
                 // {to: '/blog', label: 'Blog', position: 'left'},
 
-                {
+                // locale dropdown
+                /*{
                     type: 'localeDropdown',
                     position: 'right',
                     dropdownItemsAfter: [
@@ -117,7 +122,7 @@ const config: Config = {
                             label: 'Help Us Translate',
                         },
                     ],
-                },
+                },*/
                 {
                     href: 'https://github.com/kurtiz/documentations',
                     label: 'GitHub',
@@ -162,7 +167,7 @@ const config: Config = {
                         //   to: '/blog',
                         // },
                         {
-                           html: `<div style="display: grid; grid-template-columns: 0.5fr 0.5fr; gap: 10px: width: 100px;">
+                            html: `<div style="display: grid; grid-template-columns: 0.5fr 0.5fr; gap: 10px: width: 100px;">
                                         <div style="display: flex; flex-wrap:wrap; align-items: center;">
                                             <a href="https://github.com/kurtiz" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:25px;height:25px;padding:2px;margin:5px;color:#303846;border-radius:50%;background-color:#ffffff;">
                                                 <svg class="niftybutton-github" style="display:block;fill:currentColor" data-donate="true" data-tag="git" data-name="Github" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Github social icon</title>
