@@ -2,44 +2,39 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
-This documentation is 
-## Getting Started
+# Documentations
 
-Get started by **creating a new site**.
+This repository contains documentation of errors I encountered and the solutions to those issues.
+The errors or issues are related to:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- Operating System (Windows, MacOS, Linux, etc.)
+- Projects
+- VPNs
+- Git and GitHub/GitLab/Bitbucket
+- Capture The Flag (CTF) write-ups
 
-### What you'll need
+I'm using [Docusaurus](https://docusaurus.io/) to document everything. This repository is open to submissions and contributions.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Documentation Structure
 
-## Generate a new site
+The documentation is organized as follows:
 
-Generate a new Docusaurus site using the **classic template**.
+- [Operating System Errors](docs/os-errors/README.md)
+- [Project Errors](docs/project-errors/README.md)
+- [VPN Errors](docs/vpn-errors/README.md)
+- [Git and GitHub/GitLab/Bitbucket Errors](docs/git-errors/README.md)
+- [CTF Writeups](docs/ctf-writeups/README.md)
 
-The classic template will automatically be added to your project after you run the command:
+## Contributing
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+If you encounter an error that is not documented here, or if you have a solution to an existing error,
+please consider contributing to this repository. You can do so by following these steps:
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+1. Fork this repository.
+2. Create a new branch.
+3. Make your changes.
+4. Commit your changes.
+5. Push your changes to your forked repository.
+6. Create a pull request.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Thank you for considering contributing to this repository.
