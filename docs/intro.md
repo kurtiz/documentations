@@ -1,6 +1,11 @@
+---
+sidebar_position: 1
+sidebar_label: Introduction
+---
+
 # Documentations
 
-This repository contains documentation of errors I encountered and the solutions to those issues. 
+This repository contains documentation of errors I encountered and the solutions to those issues.
 The errors or issues are related to:
 
 - Operating System (Windows, MacOS, Linux, etc.)
@@ -15,15 +20,15 @@ I'm using [Docusaurus](https://docusaurus.io/) to document everything. This repo
 
 The documentation is organized as follows:
 
-- [Operating System Errors](docs/os-errors/README.md)
-- [Project Errors](docs/project-errors/README.md)
-- [VPN Errors](docs/vpn-errors/README.md)
-- [Git and GitHub/GitLab/Bitbucket Errors](docs/git-errors/README.md)
-- [CTF Writeups](docs/ctf-writeups/README.md)
+- [Operating System Errors](#)
+- [Project Errors](#)
+- [VPN Errors](#)
+- [Git and GitHub/GitLab/Bitbucket Errors](/docs/category/git)
+- [CTF Writeups](#)
 
 ## Contributing
 
-If you encounter an error that is not documented here, or if you have a solution to an existing error, 
+If you encounter an error that is not documented here, or if you have a solution to an existing error,
 please consider contributing to this repository. You can do so by following these steps:
 
 1. Fork this repository.
