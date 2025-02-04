@@ -19,11 +19,11 @@ I'm using [Docusaurus](https://docusaurus.io/) to document everything. This repo
 
 The documentation is organized as follows:
 
-- [Operating System Errors](docs/os-errors/README.md)
-- [Project Errors](docs/project-errors/README.md)
-- [VPN Errors](docs/vpn-errors/README.md)
-- [Git and GitHub/GitLab/Bitbucket Errors](docs/git-errors/README.md)
-- [CTF Writeups](docs/ctf-writeups/README.md)
+- [Operating System Errors](#)
+- [Project Errors](#)
+- [VPN Errors](#)
+- [Git and GitHub/GitLab/Bitbucket Errors](/docs/category/git)
+- [CTF Writeups](#)
 
 ## Contributing
 

@@ -43,7 +43,9 @@ storage.
 :::info
 
 I reverse engineered the app to get the database location and name.
-If you're wondering how I did that, visit [this docs](/docs/android/reverse-engineering-android-apps.md).
+If you're wondering how I did that, visit [this docs](/docs/category/android).
+
+[comment]: <> "If you're wondering how I did that, visit [this docs](/docs/android/reverse-engineering-android-apps.md)."
 
 
 :::
