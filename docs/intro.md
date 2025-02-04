@@ -20,9 +20,9 @@ I'm using [Docusaurus](https://docusaurus.io/) to document everything. This repo
 
 The documentation is organized as follows:
 
-- [Operating System Errors](#)
+- Operating System Errors [Linux](/docs/category/linux), [Windows](#), [MacOS](#)
 - [Project Errors](#)
-- [VPN Errors](#)
+- [VPN Errors](/docs/category/vpn)
 - [Git and GitHub/GitLab/Bitbucket Errors](/docs/category/git)
 - [CTF Writeups](#)
 
