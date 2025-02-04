@@ -40,15 +40,15 @@ So in this case the location of the database is:
 This path is standard for Android apps and ensures that the database is securely stored in the app's private internal
 storage.
 
-:::info
-
-I reverse engineered the app to get the database location and name.
-If you're wondering how I did that, visit [this docs](/docs/category/android).
-
-[comment]: <> "If you're wondering how I did that, visit [this docs](/docs/android/reverse-engineering-android-apps.md)."
-
-
-:::
+   :::info
+   
+   I reverse engineered the app to get the database location and name.
+   If you're wondering how I did that, visit [this docs](/docs/how-tos/android/reverse-engineering/with-mobsf-web).
+   
+   [comment]: <> "If you're wondering how I did that, visit [this docs](/docs/android/reverse-engineering-android-apps.md)."
+   
+   
+   :::
 ---
 
 ## Accessing the Database Without Rooting
