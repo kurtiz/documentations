@@ -9,8 +9,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
-    const pageWidth = window.innerWidth;
-    
+
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
@@ -41,17 +40,6 @@ function HomepageHeader() {
                         you navigate through common coding errors, device-related issues, and hurdles encountered during
                         pentesting and general tech use.
                     </p>
-                    {
-                        pageWidth > 1000 &&
-                        <p>
-                            Whether you're looking for troubleshooting tips, step-by-step
-                            how-to guides, or solutions to specific problems, this platform serves as a practical
-                            resource
-                            to save you time and effort. Dive in to explore real-world scenarios, learn from my
-                            experiences,
-                            and enhance your skills with actionable advice. Happy problem-solving!
-                        </p>
-                    }
                 </div>
                 <div className={styles.buttons}>
                     <Link
