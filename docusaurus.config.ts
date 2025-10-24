@@ -3,12 +3,12 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'Documentations | by kurtiz',
+    title: 'Documentations | by Kompyler',
     tagline: 'I guess I\'ve seen those errors before 😅',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-site.example.com',
+    url: 'https://kompyler-knowbase.vercel.app/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -155,13 +155,13 @@ const config: Config = {
                                         </div>
                                         
                                         <div style="display: flex; flex-wrap:wrap; align-items: center;">
-                                        <a href="https://x.com/brakhobbykurtiz" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:25px;height:25px;padding:2px;margin:5px;color:#303846;border-radius:50%;background-color:#ffffff;">
+                                        <a href="https://x.com/aaronwilldjaba" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:25px;height:25px;padding:2px;margin:5px;color:#303846;border-radius:50%;background-color:#ffffff;">
                                             <svg class="niftybutton-twitterx" style="display:block;fill:currentColor" data-donate="true" data-tag="twix" data-name="TwitterX" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Twitter X social icon</title>
                                                 <path d="M 304.757 216.824 L 495.394 0 L 450.238 0 L 284.636 188.227 L 152.475 0 L 0 0 L 199.902 284.656 L 0 512 L 45.16 512 L 219.923 313.186 L 359.525 512 L 512 512 M 61.456 33.322 L 130.835 33.322 L 450.203 480.317 L 380.811 480.317 ">
                                                 </path>
                                             </svg>              
                                         </a>
-                                        <a href="https://github.com/kurtiz" target="_blank" rel="noopener noreferrer" style="color: white">x.com</a>
+                                        <a href="https://x.com/aaronwilldjaba" target="_blank" rel="noopener noreferrer" style="color: white">Twitter(X)</a>
                                     </div>
                                     
                                     <div style="display: flex; flex-wrap:wrap; align-items: center;">
@@ -172,7 +172,7 @@ const config: Config = {
                                                 <circle cx="351.5" cy="160.5" r="21.5"></circle>
                                             </svg>
                                         </a>
-                                        <a href="https://github.com/kurtiz" target="_blank" rel="noopener noreferrer" style="color: white">Instagram</a>
+                                        <a href="https://instagram.com/brakhobbykurtiz" target="_blank" rel="noopener noreferrer" style="color: white">Instagram</a>
                                     </div>
                                         
                                     <div style="display: flex; flex-wrap:wrap; align-items: center;">
@@ -181,7 +181,7 @@ const config: Config = {
                                                 <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path>
                                             </svg>
                                         </a>
-                                        <a href="https://github.com/kurtiz" target="_blank" rel="noopener noreferrer" style="color: white">LinkedIn</a>
+                                        <a href="https://www.linkedin.com/in/aaron-will-djaba-424b7a184" target="_blank" rel="noopener noreferrer" style="color: white">LinkedIn</a>
                                     </div>
                                       
                                 </div>`
@@ -195,7 +195,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Documentations by kurtiz, Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Documentations by Kompyler, Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
