@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -18,43 +18,19 @@ const config: Config = {
     organizationName: 'kurtiz', // Usually your GitHub org/username.
     projectName: 'documentations', // Usually your repo name.
 
-    onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
+    markdown: {
+        hooks: {
+            onBrokenMarkdownLinks: 'warn',
+        },
+    },
 
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
     // may want to replace "en" with "zh-Hans".
+
     i18n: {
         defaultLocale: 'en',
-        locales: ['en'],
-
-        /*
-        locales: ['en', 'fa', 'fr'],
-        path: 'i18n',
-        localeConfigs: {
-            en: {
-                label: 'English',
-                direction: 'ltr',
-                htmlLang: 'en-US',
-                calendar: 'gregory',
-                path: 'en',
-            },
-            fa: {
-                label: 'فارسی',
-                direction: 'rtl',
-                htmlLang: 'fa-IR',
-                calendar: 'persian',
-                path: 'fa',
-            },
-            fr: {
-                label: 'Français',
-                direction: 'ltr',
-                htmlLang: 'fr-FR',
-                calendar: 'gregory',
-                path: 'fr',
-            },
-        },
-        */
+        locales: ['en', 'fr'],
     },
 
     presets: [
